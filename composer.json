@@ -1,0 +1,19 @@
+{
+    "name": "xsme/php-huawei-gpon",
+    "description": "PHP package to manage Huawei OLT",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Rzeszutek",
+            "email": "sebastian.rzeszutek@itmotion.pl"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"xsme\\HuaweiGpon\\": "src/"}
+    },
+    "require": {
+        "php" : "^7.1",
+        "phpseclib/phpseclib": "~3.0"
+    }
+}
